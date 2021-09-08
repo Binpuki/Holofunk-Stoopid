@@ -1,0 +1,13 @@
+file:lol/aloePixelDEAD
+pixel:true
+playable:true
+
+customDeath:true
+deathPrefix:_aloe_pixel-dead
+stageSuffix:-aloe-pixel
+
+animation
+idle:aloe fucking dies:24:-25:51:prefix
+firstDeath:aloe fucking dies:24:-25:51:prefix
+deathLoop:aloe die loop:24:-73:-3:prefix
+deathConfirm:aloe die confirm:24:-73:-3:prefix

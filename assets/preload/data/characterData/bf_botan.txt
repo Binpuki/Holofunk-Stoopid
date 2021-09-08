@@ -1,0 +1,14 @@
+file:holofunk/botan
+pixel:false
+playable:true
+
+animation
+idle:Pico Idle Dance:24:0:0:prefix
+singUP:pico Up note0:24:46:18:prefix
+singLEFT:Pico NOTE LEFT0:24:-19:-11:prefix
+singRIGHT:Pico Note Right0:24:92:-11:prefix
+singDOWN:Pico Down Note0:24:-175:-114:prefix
+singUPmiss:pico Up note miss:24:49:17:prefix
+singLEFTmiss:Pico NOTE LEFT MISS:24:-18:10:prefix
+singRIGHTmiss:Pico Note Right MISS:24:93:11:prefix
+singDOWNmiss:Pico Down Note MISS:24:-175:-83:prefix

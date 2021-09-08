@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="coolAnim1.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ANIM 1 loop0000" x="0" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0001" x="0" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0002" x="150" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0003" x="150" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0004" x="300" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0005" x="300" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0006" x="0" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0007" x="0" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0008" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0009" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0010" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0011" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0012" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0013" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0014" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0015" x="0" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0016" x="0" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0017" x="150" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0018" x="150" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0019" x="300" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0020" x="300" y="0" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0021" x="0" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0022" x="0" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0023" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0024" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0025" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0026" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0027" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0028" x="150" y="75" width="150" height="75"/>
+	<SubTexture name="ANIM 1 loop0029" x="150" y="75" width="150" height="75"/>
+</TextureAtlas>

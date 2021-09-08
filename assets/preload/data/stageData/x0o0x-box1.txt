@@ -1,0 +1,9 @@
+stage:x0o0x-box1
+zoom:0.7
+
+bfOffset:-200:-350
+gfOffset:0:-10000
+dadOffset:0:0
+
+SPRITES
+bg:-60:-60:1:1:1:6:stages/x0o0x-box1/coolAssBox:true:true

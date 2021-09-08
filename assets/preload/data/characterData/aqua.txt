@@ -1,0 +1,10 @@
+file:telos_aqua
+pixel:true
+playable:false
+
+animation
+idle:aqua idle:24:0:0:prefix
+singUP:aqua up:24:0:0:prefix
+singRIGHT:aqua right:24:0:0:prefix
+singDOWN:aqua down:24:0:0:prefix
+singLEFT:aqua left:24:0:0:prefix

@@ -1,0 +1,5 @@
+name:Senpai
+pixel:yes
+xPos:-280
+yPos:-83
+picAmount:2

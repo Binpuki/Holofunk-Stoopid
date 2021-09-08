@@ -1,0 +1,18 @@
+file:lol/aloePixel
+pixel:true
+playable:true
+
+customDeath:true
+deathPrefix:_aloe_pixel-dead
+stageSuffix:-aloe-pixel
+
+animation
+idle:BF IDLE:24:-70:0:prefix
+singUP:BF UP NOTE:24:-70:0:prefix
+singLEFT:BF LEFT NOTE:24:-70:0:prefix
+singRIGHT:BF RIGHT NOTE:24:-70:0:prefix
+singDOWN:BF DOWN NOTE:24:-70:0:prefix
+singUPmiss:BF UP MISS:24:-70:0:prefix
+singLEFTmiss:BF LEFT MISS:24:-70:0:prefix
+singRIGHTmiss:BF RIGHT MISS:24:-70:0:prefix
+singDOWNmiss:BF DOWN MISS:24:-70:0:prefix

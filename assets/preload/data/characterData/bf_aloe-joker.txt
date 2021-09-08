@@ -1,0 +1,23 @@
+file:lol/AloeJoker
+pixel:false
+playable:true
+
+customDeath:true
+deathPrefix:_aloe-joker
+stageSuffix:-aloe
+
+animation
+idle:BF idle dance:24:0:0:prefix
+singUP:BF NOTE UP0:24:-25:29:prefix
+singLEFT:BF NOTE LEFT0:24:-12:-9:prefix
+singRIGHT:BF NOTE RIGHT0:24:-27:-1:prefix
+singDOWN:BF NOTE DOWN0:24:34:-49:prefix
+singUPmiss:BF NOTE UP MISS:24:-7:33:prefix
+singLEFTmiss:BF NOTE LEFT MISS:24:-13:-2:prefix
+singRIGHTmiss:BF NOTE RIGHT MISS:24:-12:22:prefix
+singDOWNmiss:BF NOTE DOWN MISS:24:24:-19:prefix
+hey:BF HEY:24:-10:-2:prefix
+firstDeath:BF dies:24:67:7:prefix
+deathLoop:BF Dead Loop:24:66:4:prefix
+deathConfirm:BF Dead confirm:24:67:57:prefix
+scared:BF idle shaking:24:16:1:prefix

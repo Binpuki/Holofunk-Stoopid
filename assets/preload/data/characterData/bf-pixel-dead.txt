@@ -1,0 +1,9 @@
+file:default/bfPixelsDEAD
+pixel:true
+playable:true
+
+animation
+idle:BF Dies pixel:24:0:0:prefix
+firstDeath:BF Dies pixel:24:0:0:prefix
+deathLoop:Retry Loop:24:-30:-12:prefix
+deathConfirm:RETRY CONFIRM:24:-30:-12:prefix

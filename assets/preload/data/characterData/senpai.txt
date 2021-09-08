@@ -1,0 +1,10 @@
+file:default/senpai
+pixel:true
+playable:false
+
+animation
+idle:Senpai Idle:24:0:0:prefix
+singUP:SENPAI UP NOTE:24:5:37:prefix
+singRIGHT:SENPAI RIGHT NOTE:24:0:0:prefix
+singDOWN:SENPAI DOWN NOTE:24:14:0:prefix
+singLEFT:SENPAI LEFT NOTE:24:40:0:prefix

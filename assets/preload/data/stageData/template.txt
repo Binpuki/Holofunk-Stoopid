@@ -1,0 +1,8 @@
+SPRITES
+spriteName:X:Y:scrollFactorX:scrollFactorY:scale:pixelbool:imagePath:visible
+
+IF SPARROW
+spriteName:X:Y:scrollFactorX:scrollFactorY:scale:pixelbool:imagePath:visible:sparrow:animName:animation:framerate:loop
+
+IF PACKER
+spriteName:X:Y:scrollFactorX:scrollFactorY:scale:pixelbool:imagePath:visible:packer:animName:frames:framerate
