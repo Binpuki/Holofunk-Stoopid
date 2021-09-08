@@ -8,4 +8,5 @@ Haachama:haachama:2:ass
 Weather Hackers:coco:4:surf
 Winter Horrorland:monster:5:sus
 Fire Alarm:gf:1:wee woo wee woo
+Blue Clapper:gf_nene:Blue Clapper FNF Remix by jim830928
 ------:x0o0x_pixel:6: 
