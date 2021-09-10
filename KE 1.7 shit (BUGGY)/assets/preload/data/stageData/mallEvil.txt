@@ -1,0 +1,11 @@
+stage:mallEvil
+zoom:0.9
+
+bfOffset:0:0
+gfOffset:0:0
+dadOffset:0:0
+
+SPRITES
+bg:-400:-500:0.2:0.2:0.8:false:stages/mallEvil/evilBG:true
+evilTree:300:-300:0.2:0.2:1:false:stages/mallEvil/evilTree:true
+evilSnow:-200:700:1:1:1:false:stages/mallEvil/evilSnow:true

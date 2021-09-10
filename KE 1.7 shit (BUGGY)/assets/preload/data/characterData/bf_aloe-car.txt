@@ -1,0 +1,18 @@
+file:holofunk/aloecar
+pixel:false
+playable:true
+
+customDeath:true
+deathPrefix:_aloe
+stageSuffix:-aloe
+
+animation
+idle:BF idle dance:24:0:0:prefix
+singUP:BF NOTE UP0:24:-3:24:prefix
+singLEFT:BF NOTE LEFT0:24:-2:-11:prefix
+singRIGHT:BF NOTE RIGHT0:24:-12:-1:prefix
+singDOWN:BF NOTE DOWN0:24:30:-49:prefix
+singUPmiss:BF NOTE UP MISS:24:0:25:prefix
+singLEFTmiss:BF NOTE LEFT MISS:24:-4:-2:prefix
+singRIGHTmiss:BF NOTE RIGHT MISS:24:-12:12:prefix
+singDOWNmiss:BF NOTE DOWN MISS:24:27:-32:prefix

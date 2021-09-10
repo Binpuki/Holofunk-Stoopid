@@ -1,0 +1,10 @@
+file:lol/ASARISUS
+pixel:false
+playable:false
+
+animation
+idle:monster idle:24:-1:88:prefix
+singUP:monster up note:24:21:141:prefix
+singRIGHT:Monster Right note:24:-2:106:prefix
+singDOWN:monster down:24:-11:85:prefix
+singLEFT:Monster left note:24:-11:90:prefix

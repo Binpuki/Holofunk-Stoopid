@@ -1,0 +1,11 @@
+song:Lunchbox
+
+boxPath:stages/school/dialogueBox-pixel
+
+dialogueBoxAppear:Text Box Appear:24
+dialogueBox:Text Box Appear:24:4
+
+cutscene:none
+soundOpen:none
+
+fadeFrom:0:0:0

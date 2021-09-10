@@ -1,0 +1,6 @@
+load:senpai:bf-pixel
+
+DIALOGUE
+:senpai:0:Ah, a new fair maiden has come in search of true love!
+:senpai:0:A serenade between gentlemen shall decide where her beautiful heart shall reside.
+:bf-pixel:0:Beep bo bop

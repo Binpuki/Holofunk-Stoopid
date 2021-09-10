@@ -1,0 +1,14 @@
+stage:school
+zoom:1.05
+
+bfOffset:0:0
+gfOffset:0:0
+dadOffset:0:0
+
+SPRITES
+bgSky:0:0:0.1:0.1:1:true:stages/school/weebSky:true
+bgSchool:-200:0:0.6:0.95:1:true:stages/school/weebSchool:true
+bgStreet:-200:0:0.95:0.95:1:true:stages/school/weebStreet:true
+fgTrees:-30:130:0.9:0.9:0.8:true:stages/school/weebTreesBack:true
+bgTrees:-580:-800:0.85:0.85:1.4:true:stages/school/weebTrees:true:packer:treeLoop:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18:12
+treeLeaves:-200:-40:0.85:0.85:1:true:stages/school/petals:true:sparrow:leaves:PETALS ALL:24:true

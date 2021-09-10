@@ -1,0 +1,10 @@
+file:lol/CocoSerf
+pixel:false
+playable:false
+
+animation
+idle:COCO IDLE DANCE:24:0:0:prefix
+singUP:COCO UP:24:0:1:prefix
+singRIGHT:COCO RIGHT:24:0:-3:prefix
+singDOWN:COCO DOWN:24:0:-3:prefix
+singLEFT:COCO LEFT:24:0:0:prefix

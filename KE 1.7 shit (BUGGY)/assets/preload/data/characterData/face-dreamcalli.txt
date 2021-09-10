@@ -1,0 +1,10 @@
+file:lol/YOOOITSDREAM
+pixel:false
+playable:false
+
+animation
+idle:Dad idle dance:24:0:0:prefix
+singUP:Dad Sing Note UP:24:12:19:prefix
+singRIGHT:Dad Sing Note RIGHT:24:-28:5:prefix
+singDOWN:Dad Sing Note DOWN:24:1:-38:prefix
+singLEFT:Dad Sing Note LEFT:24:27:-9:prefix

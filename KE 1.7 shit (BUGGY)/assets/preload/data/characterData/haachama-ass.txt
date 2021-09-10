@@ -1,0 +1,10 @@
+file:lol/HAACHAMASS
+pixel:false
+playable:false
+
+animation
+idle:monster idle:24:0:-70:prefix
+singUP:monster up note:24:-10:100:prefix
+singRIGHT:Monster Right note:24:-18:-79:prefix
+singDOWN:monster down:24:-30:-30:prefix
+singLEFT:Monster left note:24:70:-45:prefix

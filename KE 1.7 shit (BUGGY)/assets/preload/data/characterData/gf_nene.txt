@@ -1,0 +1,17 @@
+file:holofunk/nene
+pixel:false
+playable:false
+special:gf
+
+animation
+cheer:GF Cheer:24:0:33:prefix
+singLEFT:GF left note:24:0:16:prefix
+singRIGHT:GF Right Note:24:0:27:prefix
+singUP:GF Up Note:24:0:46:prefix
+singDOWN:GF Down Note:24:0:21:prefix
+sad:gf sad:24:-2:13:indices:0,1,2,3,4,5,6,7,8,9,10,11,12
+danceLeft:GF Dancing Beat:24:0:31:indices:30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+danceRight:GF Dancing Beat:24:0:31:indices:15,16,17,18,19,20,21,22,23,24,25,26,27,28,29
+hairBlow:GF Dancing Beat Hair blowing:24:45:31:indices:0,1,2,3
+hairFall:GF Dancing Beat Hair Landing:24:0:31:indices:0, 1,2,3,4,5,6,7,8,9,10,11
+scared:GF FEAR:24:-2:-28:prefix

@@ -119,8 +119,6 @@ class KeyBindMenu extends FlxSubState
         if (frames <= 10)
             frames++;
 
-        infoText.text = 'Current Mode: ${KeyBinds.gamepad ? 'GAMEPAD' : 'KEYBOARD'}. Press TAB to switch\n(${KeyBinds.gamepad ? 'RIGHT Trigger' : 'Escape'} to save, ${KeyBinds.gamepad ? 'LEFT Trigger' : 'Backspace'} to leave without saving. ${KeyBinds.gamepad ? 'START To change a keybind' : ''})\n${lastKey != "" ? lastKey + " is blacklisted!" : ""}';
-
         switch(state){
 
             case "select":
@@ -139,6 +137,7 @@ class KeyBindMenu extends FlxSubState
                 if (FlxG.keys.justPressed.TAB)
                 {
                     KeyBinds.gamepad = !KeyBinds.gamepad;
+                    infoText.text = 'Current Mode: ${KeyBinds.gamepad ? 'GAMEPAD' : 'KEYBOARD'}. Press TAB to switch\n(${KeyBinds.gamepad ? 'RIGHT Trigger' : 'Escape'} to save, ${KeyBinds.gamepad ? 'LEFT Trigger' : 'Backspace'} to leave without saving. ${KeyBinds.gamepad ? 'START To change a keybind' : ''})';
                     textUpdate();
                 }
 
@@ -180,13 +179,10 @@ class KeyBindMenu extends FlxSubState
                 }
 
             case "input":
-                if (KeyBinds.gamepad) {
-                    tempKey = gpKeys[curSelected];
+                tempKey = keys[curSelected];
+                keys[curSelected] = "?";
+                if (KeyBinds.gamepad)
                     gpKeys[curSelected] = "?";
-                } else {
-                    tempKey = keys[curSelected];
-                    keys[curSelected] = "?";
-                }
                 textUpdate();
                 state = "waiting";
 
@@ -324,53 +320,39 @@ class KeyBindMenu extends FlxSubState
 
         var shouldReturn:Bool = true;
 
-        var notAllowed:Array<String> = ["START"];
-        var swapKey:Int = -1;
+        var notAllowed:Array<String> = ["START", "RIGHT_TRIGGER", "LEFT_TRIGGER"];
 
         for(x in 0...gpKeys.length)
             {
                 var oK = gpKeys[x];
-                if(oK == r) {
-                    swapKey = x;
+                if(oK == r)
                     gpKeys[x] = null;
-                }
                 if (notAllowed.contains(oK))
                 {
                     gpKeys[x] = null;
-                    lastKey = r;
                     return;
                 }
             }
 
-        if (notAllowed.contains(r))
-        {
-            gpKeys[curSelected] = tempKey;
-            lastKey = r;
-            return;
-        }
-
         if(shouldReturn){
-            if (swapKey != -1) {
-                gpKeys[swapKey] = tempKey;
-            }
             gpKeys[curSelected] = r;
             FlxG.sound.play(Paths.sound('scrollMenu'));
         }
         else{
             gpKeys[curSelected] = tempKey;
-            lastKey = r;
+            FlxG.sound.play(Paths.sound('scrollMenu'));
+            keyWarning.alpha = 1;
+            warningTween.cancel();
+            warningTween = FlxTween.tween(keyWarning, {alpha: 0}, 0.5, {ease: FlxEase.circOut, startDelay: 2});
         }
 
 	}
-
-    public var lastKey:String = "";
 
 	function addKey(r:String){
 
         var shouldReturn:Bool = true;
 
         var notAllowed:Array<String> = [];
-        var swapKey:Int = -1;
 
         for(x in blacklist){notAllowed.push(x);}
 
@@ -379,38 +361,31 @@ class KeyBindMenu extends FlxSubState
         for(x in 0...keys.length)
             {
                 var oK = keys[x];
-                if(oK == r) {
-                    swapKey = x;
+                if(oK == r)
                     keys[x] = null;
-                }
                 if (notAllowed.contains(oK))
                 {
                     keys[x] = null;
-                    lastKey = oK;
                     return;
                 }
             }
 
-        if (notAllowed.contains(r))
+        if (r.contains("NUMPAD"))
         {
-            keys[curSelected] = tempKey;
-            lastKey = r;
+            keys[curSelected] = null;
             return;
         }
 
-        lastKey = "";
-
         if(shouldReturn){
-            // Swap keys instead of setting the other one as null
-            if (swapKey != -1) {
-                keys[swapKey] = tempKey;
-            }
             keys[curSelected] = r;
             FlxG.sound.play(Paths.sound('scrollMenu'));
         }
         else{
             keys[curSelected] = tempKey;
-            lastKey = r;
+            FlxG.sound.play(Paths.sound('scrollMenu'));
+            keyWarning.alpha = 1;
+            warningTween.cancel();
+            warningTween = FlxTween.tween(keyWarning, {alpha: 0}, 0.5, {ease: FlxEase.circOut, startDelay: 2});
         }
 
 	}

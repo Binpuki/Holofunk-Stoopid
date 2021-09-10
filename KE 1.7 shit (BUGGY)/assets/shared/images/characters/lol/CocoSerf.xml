@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CocoSerf.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="COCO DOWN0000" x="0" y="0" width="653" height="653" frameX="0" frameY="-1" frameWidth="653" frameHeight="654"/>
+	<SubTexture name="COCO DOWN0001" x="0" y="0" width="653" height="653" frameX="0" frameY="-1" frameWidth="653" frameHeight="654"/>
+	<SubTexture name="COCO DOWN0002" x="653" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0003" x="653" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0004" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0005" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0006" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0007" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0008" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0009" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0010" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0011" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0012" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0013" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO DOWN0014" x="1306" y="0" width="653" height="654"/>
+	<SubTexture name="COCO IDLE DANCE0000" x="1959" y="0" width="653" height="653" frameX="0" frameY="-4" frameWidth="653" frameHeight="657"/>
+	<SubTexture name="COCO IDLE DANCE0001" x="1959" y="0" width="653" height="653" frameX="0" frameY="-4" frameWidth="653" frameHeight="657"/>
+	<SubTexture name="COCO IDLE DANCE0002" x="2612" y="0" width="653" height="654" frameX="0" frameY="-3" frameWidth="653" frameHeight="657"/>
+	<SubTexture name="COCO IDLE DANCE0003" x="3265" y="0" width="653" height="654" frameX="0" frameY="-3" frameWidth="653" frameHeight="657"/>
+	<SubTexture name="COCO IDLE DANCE0004" x="0" y="654" width="653" height="656" frameX="0" frameY="-1" frameWidth="653" frameHeight="657"/>
+	<SubTexture name="COCO IDLE DANCE0005" x="0" y="654" width="653" height="656" frameX="0" frameY="-1" frameWidth="653" frameHeight="657"/>
+	<SubTexture name="COCO IDLE DANCE0006" x="653" y="654" width="653" height="657"/>
+	<SubTexture name="COCO IDLE DANCE0007" x="653" y="654" width="653" height="657"/>
+	<SubTexture name="COCO IDLE DANCE0008" x="653" y="654" width="653" height="657"/>
+	<SubTexture name="COCO IDLE DANCE0009" x="653" y="654" width="653" height="657"/>
+	<SubTexture name="COCO IDLE DANCE0010" x="653" y="654" width="653" height="657"/>
+	<SubTexture name="COCO IDLE DANCE0011" x="653" y="654" width="653" height="657"/>
+	<SubTexture name="COCO IDLE DANCE0012" x="653" y="654" width="653" height="657"/>
+	<SubTexture name="COCO IDLE DANCE0013" x="653" y="654" width="653" height="657"/>
+	<SubTexture name="COCO IDLE DANCE0014" x="653" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0000" x="1306" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0001" x="1306" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0002" x="1959" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0003" x="1959" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0004" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0005" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0006" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0007" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0008" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0009" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0010" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0011" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0012" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0013" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO LEFT0014" x="2612" y="654" width="653" height="657"/>
+	<SubTexture name="COCO RIGHT0000" x="3265" y="654" width="653" height="652" frameX="0" frameY="-2" frameWidth="653" frameHeight="654"/>
+	<SubTexture name="COCO RIGHT0001" x="3265" y="654" width="653" height="652" frameX="0" frameY="-2" frameWidth="653" frameHeight="654"/>
+	<SubTexture name="COCO RIGHT0002" x="0" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0003" x="0" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0004" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0005" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0006" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0007" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0008" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0009" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0010" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0011" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0012" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0013" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO RIGHT0014" x="653" y="1311" width="653" height="654"/>
+	<SubTexture name="COCO UP0000" x="1306" y="1311" width="653" height="658"/>
+	<SubTexture name="COCO UP0001" x="1306" y="1311" width="653" height="658"/>
+	<SubTexture name="COCO UP0002" x="1959" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0003" x="2612" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0004" x="2612" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0005" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0006" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0007" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0008" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0009" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0010" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0011" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0012" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0013" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+	<SubTexture name="COCO UP0014" x="3265" y="1311" width="653" height="657" frameX="0" frameY="-1" frameWidth="653" frameHeight="658"/>
+</TextureAtlas>

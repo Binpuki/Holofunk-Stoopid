@@ -1,0 +1,18 @@
+file:lol/x0o0x_pixel
+pixel:true:8
+playable:false
+
+customDeath:true
+deathPrefix:-pixel-dead
+stageSuffix:-pixel
+
+animation
+idle:IDLE:24:0:0:prefix
+singUP:UP:24:0:0:prefix
+singLEFT:LEFT:24:0:0:prefix
+singRIGHT:RIGHT:24:0:0:prefix
+singDOWN:DOWN:24:0:0:prefix
+singUPmiss:MISS UP:24:0:0:prefix
+singLEFTmiss:MISS LEFT:24:0:0:prefix
+singRIGHTmiss:MISS RIGHT:24:0:0:prefix
+singDOWNmiss:MISS DOWN:24:0:0:prefix

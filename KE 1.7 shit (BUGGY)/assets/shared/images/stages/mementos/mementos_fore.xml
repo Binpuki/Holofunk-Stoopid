@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mementos_fore.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MEMENTOS WALLS0000" x="0" y="0" width="2033" height="657"/>
+	<SubTexture name="MEMENTOS WALLS0001" x="2033" y="0" width="2033" height="657"/>
+	<SubTexture name="MEMENTOS WALLS0002" x="0" y="657" width="2033" height="657"/>
+	<SubTexture name="MEMENTOS WALLS0003" x="2033" y="657" width="2033" height="657"/>
+</TextureAtlas>

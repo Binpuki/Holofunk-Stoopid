@@ -37,7 +37,7 @@ class Character extends FlxSprite
 		antialiasing = FlxG.save.data.antialiasing;
 
 		//Load the shit
-		var charInfo:Array<String> = CoolUtil.coolTextFile(Paths.txt('data/characterData/' + character));
+		var charInfo:Array<String> = CoolUtil.coolTextFile(Paths.txt('characterData/' + character));
 		
 		var pixelShit:Bool = false;
 		var pixelSize:Int = 6;

@@ -1,0 +1,19 @@
+file:default/BOYFRIEND
+pixel:false
+playable:true
+
+animation
+idle:BF idle dance:24:-5:0:prefix
+singUP:BF NOTE UP0:24:-29:27:prefix
+singLEFT:BF NOTE LEFT0:24:12:6:prefix
+singRIGHT:BF NOTE RIGHT0:24:-38:-7:prefix
+singDOWN:BF NOTE DOWN0:24:-10:-50:prefix
+singUPmiss:BF NOTE UP MISS:24:-29:27:prefix
+singLEFTmiss:BF NOTE LEFT MISS:24:12:24:prefix
+singRIGHTmiss:BF NOTE RIGHT MISS:24:-30:21:prefix
+singDOWNmiss:BF NOTE DOWN MISS:24:-11:-19:prefix
+hey:BF HEY:24:7:4:prefix
+firstDeath:BF dies:24:37:11:prefix
+deathLoop:BF Dead Loop:24:37:5:prefix
+deathConfirm:BF Dead confirm:24:37:69:prefix
+scared:BF idle shaking:24:-4:0:prefix

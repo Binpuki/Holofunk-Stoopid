@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mementos_back.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MEMENTOS BG0000" x="0" y="0" width="2193" height="1025"/>
+	<SubTexture name="MEMENTOS BG0001" x="2193" y="0" width="2193" height="1025"/>
+	<SubTexture name="MEMENTOS BG0002" x="4386" y="0" width="2193" height="1025"/>
+	<SubTexture name="MEMENTOS BG0003" x="0" y="1025" width="2193" height="1025"/>
+</TextureAtlas>

@@ -111,18 +111,19 @@ class PauseSubState extends MusicBeatSubstate
 
 		var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
 
-		var upPcontroller:Bool = false;
-		var downPcontroller:Bool = false;
-		var leftPcontroller:Bool = false;
-		var rightPcontroller:Bool = false;
+		var upP = controls.UP_P;
+		var downP = controls.DOWN_P;
+		var leftP = controls.LEFT_P;
+		var rightP = controls.RIGHT_P;
+		var accepted = controls.ACCEPT;
 		var oldOffset:Float = 0;
 
 		if (gamepad != null && KeyBinds.gamepad)
 		{
-			upPcontroller = gamepad.justPressed.DPAD_UP;
-			downPcontroller = gamepad.justPressed.DPAD_DOWN;
-			leftPcontroller = gamepad.justPressed.DPAD_LEFT;
-			rightPcontroller = gamepad.justPressed.DPAD_RIGHT;
+			upP = gamepad.justPressed.DPAD_UP;
+			downP = gamepad.justPressed.DPAD_DOWN;
+			leftP = gamepad.justPressed.DPAD_LEFT;
+			rightP = gamepad.justPressed.DPAD_RIGHT;
 		}
 
 		// pre lowercasing the song name (update)
@@ -133,23 +134,17 @@ class PauseSubState extends MusicBeatSubstate
 		}
 		var songPath = 'assets/data/' + songLowercase + '/';
 
-		#if sys
-		if (PlayState.isSM && !PlayState.isStoryMode)
-			songPath = PlayState.pathToSm;
-		#end
-
-		if (controls.UP_P || upPcontroller)
+		if (upP)
 		{
 			changeSelection(-1);
    
-		}
-		else if (controls.DOWN_P || downPcontroller)
+		}else if (downP)
 		{
 			changeSelection(1);
 		}
 		
 		#if cpp
-			else if (controls.LEFT_P || leftPcontroller)
+			else if (leftP)
 			{
 				oldOffset = PlayState.songOffset;
 				PlayState.songOffset -= 1;
@@ -176,8 +171,7 @@ class PauseSubState extends MusicBeatSubstate
 					cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
 					offsetChanged = true;
 				}
-			} 
-			else if (controls.RIGHT_P || rightPcontroller)
+			}else if (rightP)
 			{
 				oldOffset = PlayState.songOffset;
 				PlayState.songOffset += 1;
@@ -205,27 +199,23 @@ class PauseSubState extends MusicBeatSubstate
 			}
 		#end
 
-		if (controls.ACCEPT && !FlxG.keys.pressed.ALT)
+		if (accepted)
 		{
 			var daSelected:String = menuItems[curSelected];
 
-			
 			switch (daSelected)
 			{
 				case "Resume":
 					close();
 				case "Restart Song":
-					PlayState.startTime = 0;
 					if (PlayState.instance.useVideo)
 					{
 						GlobalVideo.get().stop();
 						PlayState.instance.remove(PlayState.instance.videoSprite);
 						PlayState.instance.removedVideo = true;
 					}
-					PlayState.instance.clean();
 					FlxG.resetState();
 				case "Exit to menu":
-					PlayState.startTime = 0;
 					if (PlayState.instance.useVideo)
 					{
 						GlobalVideo.get().stop();
@@ -249,12 +239,7 @@ class PauseSubState extends MusicBeatSubstate
 					if (FlxG.save.data.fpsCap > 290)
 						(cast (Lib.current.getChildAt(0), Main)).setFPSCap(290);
 					
-					PlayState.instance.clean();
-
-					if (PlayState.isStoryMode)
-						FlxG.switchState(new StoryMenuState());
-					else
-						FlxG.switchState(new FreeplayState());
+					FlxG.switchState(new MainMenuState());
 			}
 		}
 
@@ -275,8 +260,6 @@ class PauseSubState extends MusicBeatSubstate
 	function changeSelection(change:Int = 0):Void
 	{
 		curSelected += change;
-		
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 
 		if (curSelected < 0)
 			curSelected = menuItems.length - 1;

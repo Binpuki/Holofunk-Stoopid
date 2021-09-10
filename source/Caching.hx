@@ -188,11 +188,5 @@ class Caching extends MusicBeatState
 		#end
 		FlxG.switchState(new TitleState());
 	}
-
-	function easeOutShit(time:Float, startPoint:Float, change:Float, duration:Float):Float
-	{
-		time /= duration;
-		return -change * time * (time - 2) + startPoint;
-	}
 }
 #end
