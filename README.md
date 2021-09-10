@@ -1,3 +1,7 @@
+# Holofunk Stoopid
+Just for fun. Please don't use these assets without contacting me first. The code's fine to take I don't really care lol
+
+# Kade engine info below
 
 ![Kade Engine logo](assets/preload/images/KadeEngineLogo.png)
 
