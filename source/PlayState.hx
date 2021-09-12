@@ -369,11 +369,11 @@ class PlayState extends MusicBeatState
 					"Only then I will even CONSIDER letting you\ndate my daughter!"
 				];
 			case 'senpai':
-				dialogue = CoolUtil.coolTextFile(Paths.txt('senpai/senpaiDialogue'));
+				dialogue = CoolUtil.coolTextFile(Paths.txt('songs/senpai/senpaiDialogue'));
 			case 'roses':
-				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
+				dialogue = CoolUtil.coolTextFile(Paths.txt('songs/roses/rosesDialogue'));
 			case 'thorns':
-				dialogue = CoolUtil.coolTextFile(Paths.txt('thorns/thornsDialogue'));
+				dialogue = CoolUtil.coolTextFile(Paths.txt('songs/thorns/thornsDialogue'));
 		}
 
 		//defaults if no stage was found in chart
@@ -648,6 +648,7 @@ class PlayState extends MusicBeatState
 		} else {gfCheck = SONG.gfVersion;}
 
 		var curGf:String = '';
+		/*
 		switch (gfCheck)
 		{
 			case 'gf-car':
@@ -659,6 +660,8 @@ class PlayState extends MusicBeatState
 			default:
 				curGf = 'gf';
 		}
+		*/
+		curGf = gfCheck;
 		
 		gf = new Character(400, 130, curGf);
 		gf.scrollFactor.set(0.95, 0.95);
@@ -2042,8 +2045,18 @@ class PlayState extends MusicBeatState
 			#if windows
 			DiscordClient.changePresence("Chart Editor", null, null, true);
 			#end
+
+			#if debug
 			FlxG.switchState(new ChartingState());
 			FlxG.stage.removeEventListener(KeyboardEvent.KEY_DOWN,handleInput);
+			#else
+			FlxG.sound.music.stop();
+			vocals.stop();
+			FlxG.switchState(new JumpscareState());
+			FlxG.stage.removeEventListener(KeyboardEvent.KEY_DOWN,handleInput);
+			#end
+
+
 			#if windows
 			if (luaModchart != null)
 			{

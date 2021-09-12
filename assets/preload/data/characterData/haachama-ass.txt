@@ -1,4 +1,4 @@
-file:lol/HAACHAMASS
+file:lol/ass/HAACHAMASS
 pixel:false
 playable:false
 

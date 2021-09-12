@@ -1,0 +1,10 @@
+file:lol/ass/keaton_ass
+pixel:false
+playable:false
+
+animation
+idle:keaton idle:24:0:0:prefix
+singUP:keaton up:24:78:-190:prefix
+singRIGHT:keaton right:24:80:-200:prefix
+singDOWN:keaton down:24:90:-200:prefix
+singLEFT:keaton left:24:83:-200:prefix

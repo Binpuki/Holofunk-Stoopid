@@ -1,4 +1,4 @@
-file:lol/aloe_dumpy
+file:lol/ass/aloe_dumpy
 pixel:false
 playable:true
 

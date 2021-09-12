@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="keaton_ass.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="keaton down0000" x="1" y="1" width="466" height="577" frameX="0" frameY="-10" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0001" x="1" y="1" width="466" height="577" frameX="0" frameY="-10" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0002" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0003" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0004" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0005" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0006" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0007" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0008" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0009" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0010" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0011" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0012" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton down0013" x="467" y="1" width="445" height="587" frameX="-11" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton idle0000" x="912" y="1" width="304" height="781" frameX="0" frameY="-16" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0001" x="912" y="1" width="304" height="781" frameX="0" frameY="-16" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0002" x="1216" y="1" width="292" height="789" frameX="-6" frameY="-8" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0003" x="1216" y="1" width="292" height="789" frameX="-6" frameY="-8" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0004" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0005" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0006" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0007" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0008" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0009" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0010" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0011" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0012" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton idle0013" x="1508" y="1" width="284" height="797" frameX="-11" frameY="0" frameWidth="304" frameHeight="797"/>
+	<SubTexture name="keaton left0000" x="1" y="798" width="444" height="586" frameX="0" frameY="0" frameWidth="450" frameHeight="586"/>
+	<SubTexture name="keaton left0001" x="1" y="798" width="444" height="586" frameX="0" frameY="0" frameWidth="450" frameHeight="586"/>
+	<SubTexture name="keaton left0002" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0003" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0004" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0005" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0006" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0007" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0008" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0009" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0010" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0011" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0012" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton left0013" x="467" y="1" width="445" height="587" frameX="-4" frameY="0" frameWidth="466" frameHeight="587"/>
+	<SubTexture name="keaton right0000" x="445" y="798" width="447" height="586" frameX="-4" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0001" x="445" y="798" width="447" height="586" frameX="-4" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0002" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0003" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0004" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0005" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0006" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0007" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0008" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0009" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0010" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0011" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0012" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton right0013" x="892" y="798" width="446" height="586" frameX="0" frameY="0" frameWidth="451" frameHeight="586"/>
+	<SubTexture name="keaton up0000" x="1338" y="798" width="445" height="596"/>
+	<SubTexture name="keaton up0001" x="1338" y="798" width="445" height="596"/>
+	<SubTexture name="keaton up0002" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0003" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0004" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0005" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0006" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0007" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0008" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0009" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0010" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0011" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0012" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+	<SubTexture name="keaton up0013" x="1" y="1394" width="445" height="586" frameX="0" frameY="-10" frameWidth="445" frameHeight="596"/>
+</TextureAtlas>

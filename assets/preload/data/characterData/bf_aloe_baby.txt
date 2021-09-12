@@ -1,0 +1,23 @@
+file:lol/dababy
+pixel:false
+playable:true
+
+customDeath:true
+deathPrefix:_aloe_baby
+stageSuffix:-aloe
+
+animation
+idle:BF idle dance:24:0:0:prefix
+singUP:BF NOTE UP0:24:-30:15:prefix
+singUPmiss:BF NOTE UP MISS:24:-31:16:prefix
+singLEFT:BF NOTE LEFT0:24:-26:-7:prefix
+singLEFTmiss:BF NOTE LEFT MISS:24:-22:-8:prefix
+singRIGHT:BF NOTE RIGHT0:24:-43:-8:prefix
+singRIGHTmiss:BF NOTE RIGHT MISS:24:-43:-8:prefix
+singDOWN:BF NOTE DOWN0:24:-9:-45:prefix
+singDOWNmiss:BF NOTE DOWN MISS:24:0:-40:prefix
+hey:BF HEY:24:3:-9:prefix
+firstDeath:BF dies:24:-9:0:prefix
+deathLoop:BF Dead Loop:24:-12:0:prefix
+deathConfirm:BF Dead confirm:24:-12:45:prefix
+scared:BF idle shaking:24:-5:0:prefix
