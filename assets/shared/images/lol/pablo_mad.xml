@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pablo_mad.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pablo down0000" x="10" y="10" width="745" height="465"/>
+	<SubTexture name="pablo down0001" x="10" y="10" width="745" height="465"/>
+	<SubTexture name="pablo down0002" x="760" y="10" width="728" height="465" frameX="-11" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0003" x="760" y="10" width="728" height="465" frameX="-11" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0004" x="1493" y="10" width="718" height="465" frameX="-16" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0005" x="1493" y="10" width="718" height="465" frameX="-16" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0006" x="2216" y="10" width="704" height="465" frameX="-23" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0007" x="2216" y="10" width="704" height="465" frameX="-23" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0008" x="2216" y="10" width="704" height="465" frameX="-23" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0009" x="2216" y="10" width="704" height="465" frameX="-23" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0010" x="2216" y="10" width="704" height="465" frameX="-23" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0011" x="2216" y="10" width="704" height="465" frameX="-23" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0012" x="2216" y="10" width="704" height="465" frameX="-23" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo down0013" x="2216" y="10" width="704" height="465" frameX="-23" frameY="0" frameWidth="745" frameHeight="465"/>
+	<SubTexture name="pablo idle0000" x="2925" y="10" width="688" height="465" frameX="-24" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0001" x="2925" y="10" width="688" height="465" frameX="-24" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0002" x="10" y="480" width="694" height="465" frameX="-21" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0003" x="709" y="480" width="710" height="452" frameX="-21" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0004" x="1424" y="480" width="726" height="462" frameX="0" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0005" x="2155" y="480" width="716" height="464" frameX="-7" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0006" x="2876" y="480" width="707" height="466" frameX="-11" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0007" x="10" y="951" width="706" height="465" frameX="-14" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0008" x="721" y="951" width="704" height="465" frameX="-16" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0009" x="1430" y="951" width="704" height="465" frameX="-16" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0010" x="2139" y="951" width="704" height="465" frameX="-16" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0011" x="2139" y="951" width="704" height="465" frameX="-16" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0012" x="2139" y="951" width="704" height="465" frameX="-16" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo idle0013" x="2139" y="951" width="704" height="465" frameX="-16" frameY="0" frameWidth="731" frameHeight="466"/>
+	<SubTexture name="pablo left0000" x="2848" y="951" width="701" height="466" frameX="-3" frameY="0" frameWidth="704" frameHeight="466"/>
+	<SubTexture name="pablo left0001" x="2848" y="951" width="701" height="466" frameX="-3" frameY="0" frameWidth="704" frameHeight="466"/>
+	<SubTexture name="pablo left0002" x="10" y="1422" width="703" height="466" frameX="-1" frameY="0" frameWidth="704" frameHeight="466"/>
+	<SubTexture name="pablo left0003" x="10" y="1422" width="703" height="466" frameX="-1" frameY="0" frameWidth="704" frameHeight="466"/>
+	<SubTexture name="pablo left0004" x="718" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo left0005" x="718" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo left0006" x="1427" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo left0007" x="1427" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo left0008" x="1427" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo left0009" x="1427" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo left0010" x="1427" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo left0011" x="1427" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo left0012" x="1427" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo left0013" x="1427" y="1422" width="704" height="466"/>
+	<SubTexture name="pablo right0000" x="2136" y="1422" width="718" height="466" frameX="-4" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0001" x="2136" y="1422" width="718" height="466" frameX="-4" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0002" x="2859" y="1422" width="713" height="466" frameX="-3" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0003" x="2859" y="1422" width="713" height="466" frameX="-3" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0004" x="10" y="1893" width="708" height="466" frameX="-1" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0005" x="10" y="1893" width="708" height="466" frameX="-1" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0006" x="723" y="1893" width="704" height="466" frameX="0" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0007" x="723" y="1893" width="704" height="466" frameX="0" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0008" x="723" y="1893" width="704" height="466" frameX="0" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0009" x="723" y="1893" width="704" height="466" frameX="0" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0010" x="723" y="1893" width="704" height="466" frameX="0" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0011" x="723" y="1893" width="704" height="466" frameX="0" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0012" x="723" y="1893" width="704" height="466" frameX="0" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo right0013" x="723" y="1893" width="704" height="466" frameX="0" frameY="0" frameWidth="722" frameHeight="466"/>
+	<SubTexture name="pablo up0000" x="1432" y="1893" width="655" height="481" frameX="-29" frameY="0" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0001" x="1432" y="1893" width="655" height="481" frameX="-29" frameY="0" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0002" x="2092" y="1893" width="682" height="477" frameX="-9" frameY="-4" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0003" x="2092" y="1893" width="682" height="477" frameX="-9" frameY="-4" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0004" x="2779" y="1893" width="691" height="466" frameX="-5" frameY="-15" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0005" x="2779" y="1893" width="691" height="466" frameX="-5" frameY="-15" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0006" x="10" y="2379" width="704" height="466" frameX="0" frameY="-15" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0007" x="10" y="2379" width="704" height="466" frameX="0" frameY="-15" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0008" x="10" y="2379" width="704" height="466" frameX="0" frameY="-15" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0009" x="10" y="2379" width="704" height="466" frameX="0" frameY="-15" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0010" x="10" y="2379" width="704" height="466" frameX="0" frameY="-15" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0011" x="10" y="2379" width="704" height="466" frameX="0" frameY="-15" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0012" x="10" y="2379" width="704" height="466" frameX="0" frameY="-15" frameWidth="704" frameHeight="481"/>
+	<SubTexture name="pablo up0013" x="10" y="2379" width="704" height="466" frameX="0" frameY="-15" frameWidth="704" frameHeight="481"/>
+</TextureAtlas>

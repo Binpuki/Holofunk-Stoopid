@@ -5,6 +5,8 @@ import flixel.graphics.frames.FlxAtlasFrames;
 import openfl.utils.AssetType;
 import openfl.utils.Assets as OpenFlAssets;
 
+using StringTools;
+
 class Paths
 {
 	inline public static var SOUND_EXT = #if web "mp3" #else "ogg" #end;
@@ -18,6 +20,14 @@ class Paths
 
 	static function getPath(file:String, type:AssetType, library:Null<String>)
 	{
+		if (file.endsWith('.mp4'))
+		{
+			if (library != null)
+			{
+				return 'assets/' + library + '/' + file;
+			}
+		}
+
 		if (library != null)
 			return getLibraryPath(file, library);
 
@@ -33,6 +43,7 @@ class Paths
 		}
 
 		//trace(getPreloadPath(file));
+
 		return getPreloadPath(file);
 	}
 
@@ -89,6 +100,12 @@ class Paths
 	inline static public function soundRandom(key:String, min:Int, max:Int, ?library:String)
 	{
 		return sound(key + FlxG.random.int(min, max), library);
+	}
+
+	inline static public function video(key:String, ?library:String)
+	{
+		trace('assets/videos/$key.mp4');
+		return getPath('videos/$key.mp4', BINARY, library);
 	}
 
 	inline static public function music(key:String, ?library:String)

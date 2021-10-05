@@ -1,0 +1,9 @@
+stage:pabloHappy
+zoom:0.9
+
+bfOffset:0:0
+gfOffset:0:0
+dadOffset:0:0
+
+SPRITES
+island:-650:600:0.9:0.9:1.1:false:stages/pabloHappy/mainislan:true

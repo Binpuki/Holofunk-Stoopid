@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DeltaruneUI.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ACT0000" x="5" y="5" width="63" height="51" frameX="0" frameY="0" frameWidth="63" frameHeight="64"/>
+	<SubTexture name="ACT0001" x="73" y="5" width="63" height="64"/>
+	<SubTexture name="ALOENIUM0000" x="141" y="5" width="63" height="51" frameX="0" frameY="0" frameWidth="63" frameHeight="61"/>
+	<SubTexture name="ALOENIUM0001" x="209" y="5" width="63" height="61"/>
+	<SubTexture name="ASS0000" x="277" y="5" width="63" height="51" frameX="0" frameY="0" frameWidth="63" frameHeight="62"/>
+	<SubTexture name="ASS0001" x="345" y="5" width="63" height="62"/>
+	<SubTexture name="DEFEND0000" x="413" y="5" width="63" height="51" frameX="0" frameY="0" frameWidth="63" frameHeight="64"/>
+	<SubTexture name="DEFEND0001" x="5" y="74" width="63" height="64"/>
+	<SubTexture name="FIGHT0000" x="73" y="74" width="63" height="51" frameX="0" frameY="0" frameWidth="63" frameHeight="64"/>
+	<SubTexture name="FIGHT0001" x="141" y="74" width="63" height="64"/>
+	<SubTexture name="ITEM0000" x="209" y="74" width="63" height="51" frameX="0" frameY="0" frameWidth="63" frameHeight="64"/>
+	<SubTexture name="ITEM0001" x="277" y="74" width="63" height="64"/>
+	<SubTexture name="MAGIC0000" x="345" y="74" width="63" height="51" frameX="0" frameY="0" frameWidth="63" frameHeight="64"/>
+	<SubTexture name="MAGIC0001" x="413" y="74" width="63" height="64"/>
+	<SubTexture name="SPARE0000" x="5" y="143" width="63" height="51" frameX="0" frameY="0" frameWidth="63" frameHeight="65"/>
+	<SubTexture name="SPARE0001" x="73" y="143" width="63" height="65"/>
+</TextureAtlas>

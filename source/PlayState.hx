@@ -1,5 +1,6 @@
 package;
 
+import deltarune.DeltaruneState;
 import motion.easing.Back;
 import openfl.ui.KeyLocation;
 import openfl.events.Event;
@@ -237,6 +238,8 @@ class PlayState extends MusicBeatState
 
 	private var executeModchart = false;
 
+	public static var currentCamPos:FlxPoint; // for deltarune lol
+
 	// API stuff
 	
 	public function addObject(object:FlxBasic) { add(object); }
@@ -369,7 +372,7 @@ class PlayState extends MusicBeatState
 					"Only then I will even CONSIDER letting you\ndate my daughter!"
 				];
 			case 'senpai':
-				dialogue = CoolUtil.coolTextFile(Paths.txt('songs/senpai/senpaiDialogue'));
+				dialogue = CoolUtil.coolTextFile(Paths.txt('songs/senpai/dialogue'));
 			case 'roses':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('songs/roses/rosesDialogue'));
 			case 'thorns':
@@ -578,6 +581,7 @@ class PlayState extends MusicBeatState
 
 			case 'mementos':
 			{
+				curStage = 'mementos';
 				var bg:FlxSprite = new FlxSprite(-330, -60);
 				bg.frames = Paths.getSparrowAtlas('stages/mementos/mementos_back', 'shared');
 				bg.scrollFactor.set(1.3, 1.2);
@@ -585,6 +589,7 @@ class PlayState extends MusicBeatState
 				bg.updateHitbox();
 				bg.animation.addByPrefix('bg shit', 'MEMENTOS BG', 24, true);
 				bg.animation.play('bg shit');
+				add(bg);
 
 				var fg:FlxSprite = new FlxSprite(-295, -100);
 				fg.frames = Paths.getSparrowAtlas('stages/mementos/mementos_fore', 'shared');
@@ -593,6 +598,129 @@ class PlayState extends MusicBeatState
 				fg.updateHitbox();
 				fg.animation.addByPrefix('fg shit', 'MEMENTOS WALLS', 24, true);
 				fg.animation.play('fg shit');
+				add(fg);
+			}
+
+			case 'pabloHappy':
+			{
+				curStage = 'pabloHappy';
+				defaultCamZoom = 0.9;
+
+				var bg = new FlxSprite(-400, 0);
+				bg.frames = Paths.getSparrowAtlas('stages/pabloHappy/bg', 'shared');
+				bg.scrollFactor.set(0.4, 0.4);
+				bg.antialiasing = true;
+				bg.animation.addByPrefix('bg shit', 'background', 24, true);
+				bg.animation.play('bg shit');
+				add(bg);
+
+				var backislands = new FlxSprite(-300, 200).loadGraphic(Paths.image('stages/pabloHappy/backislands', 'shared'));
+				backislands.scrollFactor.set(0.6, 0.6);
+				backislands.antialiasing = true;
+				add(backislands);
+
+				//smol peeps
+				if(FlxG.save.data.distractions){
+					grpLimoDancers = new FlxTypedGroup<BackgroundDancer>();
+					add(grpLimoDancers);
+
+					var kaigainiki:BackgroundDancer = new BackgroundDancer(-200, 225, 'stages/pabloHappy/KaigaiNiki', 'kaigai niki dance');
+					kaigainiki.scrollFactor.set(0.6, 0.6);
+					kaigainiki.antialiasing = true;
+					grpLimoDancers.add(kaigainiki);
+
+					var tako:BackgroundDancer = new BackgroundDancer(250, 125, 'stages/pabloHappy/takodachi', 'tako dance');
+					tako.scrollFactor.set(0.6, 0.6);
+					tako.antialiasing = true;
+					grpLimoDancers.add(tako);
+
+					var weirdbombcat:BackgroundDancer = new BackgroundDancer(925, 140, 'stages/pabloHappy/ssrbmin', 'ssrbmin dance');
+					weirdbombcat.scrollFactor.set(0.6, 0.6);
+					weirdbombcat.antialiasing = true;
+					grpLimoDancers.add(weirdbombcat);
+
+					var friend:BackgroundDancer = new BackgroundDancer(1350, 290, 'stages/pabloHappy/friend', 'mumay frien dance');
+					friend.scrollFactor.set(0.6, 0.6);
+					friend.antialiasing = true;
+					grpLimoDancers.add(friend);
+				}
+
+				//the actual island
+				var island = new FlxSprite(-100, 600).loadGraphic(Paths.image('stages/pabloHappy/mainislan', 'shared'));
+				island.scrollFactor.set(0.95, 0.95);
+				island.antialiasing = true;
+				add(island);
+
+				var backflower = new FlxSprite(20, 600).loadGraphic(Paths.image('stages/pabloHappy/backflower', 'shared'));
+				backflower.scrollFactor.set(0.9, 0.9);
+				backflower.antialiasing = true;
+				add(backflower);
+
+				//USED LIMO VARIABLE BC IM TOO LAZY TO CREATE NEW ONE FOR THE FRONT LOL
+				limo = new FlxSprite(0, 725).loadGraphic(Paths.image('stages/pabloHappy/frontflower', 'shared'));
+				limo.scrollFactor.set(0.9, 0.9);
+				limo.antialiasing = true;
+			}
+
+			case 'pabloAnnoy':
+			{
+				curStage = 'pabloHappy';
+				defaultCamZoom = 0.9;
+
+				var bg = new FlxSprite(-400, 0);
+				bg.frames = Paths.getSparrowAtlas('stages/pabloAnnoy/bg', 'shared');
+				bg.scrollFactor.set(0.4, 0.4);
+				bg.antialiasing = true;
+				bg.animation.addByPrefix('bg shit', 'background', 24, true);
+				bg.animation.play('bg shit');
+				add(bg);
+
+				var backislands = new FlxSprite(-300, 200).loadGraphic(Paths.image('stages/pabloAnnoy/backislands', 'shared'));
+				backislands.scrollFactor.set(0.6, 0.6);
+				backislands.antialiasing = true;
+				add(backislands);
+
+				//smol peeps
+				if(FlxG.save.data.distractions){
+					grpLimoDancers = new FlxTypedGroup<BackgroundDancer>();
+					add(grpLimoDancers);
+
+					var kaigainiki:BackgroundDancer = new BackgroundDancer(-200, 225, 'stages/pabloAnnoy/KaigaiNiki', 'kaigai niki cute!!');
+					kaigainiki.scrollFactor.set(0.6, 0.6);
+					kaigainiki.antialiasing = true;
+					grpLimoDancers.add(kaigainiki);
+
+					var tako:BackgroundDancer = new BackgroundDancer(250, 125, 'stages/pabloAnnoy/TakoScare', 'takodachi');
+					tako.scrollFactor.set(0.6, 0.6);
+					tako.antialiasing = true;
+					grpLimoDancers.add(tako);
+
+					var weirdbombcat:BackgroundDancer = new BackgroundDancer(925, 140, 'stages/pabloAnnoy/ScaredBombCat', 'weird bomb cat');
+					weirdbombcat.scrollFactor.set(0.6, 0.6);
+					weirdbombcat.antialiasing = true;
+					grpLimoDancers.add(weirdbombcat);
+
+					var friend:BackgroundDancer = new BackgroundDancer(1350, 290, 'stages/pabloAnnoy/friend', 'friend');
+					friend.scrollFactor.set(0.6, 0.6);
+					friend.antialiasing = true;
+					grpLimoDancers.add(friend);
+				}
+
+				//the actual island
+				var island = new FlxSprite(-100, 600).loadGraphic(Paths.image('stages/pabloAnnoy/mainislan', 'shared'));
+				island.scrollFactor.set(0.95, 0.95);
+				island.antialiasing = true;
+				add(island);
+
+				var backflower = new FlxSprite(20, 600).loadGraphic(Paths.image('stages/pabloHappy/backflower', 'shared'));
+				backflower.scrollFactor.set(0.9, 0.9);
+				backflower.antialiasing = true;
+				add(backflower);
+
+				//USED LIMO VARIABLE BC IM TOO LAZY TO CREATE NEW ONE FOR THE FRONT LOL
+				limo = new FlxSprite(0, 725).loadGraphic(Paths.image('stages/pabloHappy/frontflower', 'shared'));
+				limo.scrollFactor.set(0.9, 0.9);
+				limo.antialiasing = true;
 			}
 
 			default:
@@ -670,16 +798,20 @@ class PlayState extends MusicBeatState
 
 		var camPos:FlxPoint = new FlxPoint(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y);
 
+		if (SONG.player2.startsWith('gf'))
+		{
+			dad.setPosition(gf.x, gf.y);
+			gf.visible = false;
+			if (isStoryMode)
+			{
+				camPos.x += 600;
+				tweenCamIn();
+			}
+		}
+
 		switch (SONG.player2)
 		{
-			case 'gf':
-				dad.setPosition(gf.x, gf.y);
-				gf.visible = false;
-				if (isStoryMode)
-				{
-					camPos.x += 600;
-					tweenCamIn();
-				}
+			
 
 			case "spooky":
 				dad.y += 200;
@@ -722,6 +854,9 @@ class PlayState extends MusicBeatState
 				camPos.set(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y);
 			case 'coco_surf':
 				dad.y += 200;
+				camPos.set(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y);
+			case 'pablo':
+				dad.y += 300;
 				camPos.set(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y);
 		}
 
@@ -774,7 +909,7 @@ class PlayState extends MusicBeatState
 			add(gf);
 
 			// Shitty layering but whatev it works LOL
-			if (curStage == 'limo')
+			if (curStage == 'limo' || curStage == 'pabloHappy')
 				add(limo);
 
 			add(dad);
@@ -1395,8 +1530,8 @@ class PlayState extends MusicBeatState
 
 		for (i in 0...binds.length) // binds
 		{
-			if (binds[i].toLowerCase() == key.toLowerCase())
-				data = i;
+			if(binds[i].toLowerCase() == key.toLowerCase())
+				data = i; 
 		}
 
 		if (evt.keyLocation == KeyLocation.NUM_PAD)
@@ -2095,6 +2230,8 @@ class PlayState extends MusicBeatState
 		/* if (FlxG.keys.justPressed.NINE)
 			FlxG.switchState(new Charting()); */
 
+		trace(currentCamPos);
+
 		#if debug
 		if (FlxG.keys.justPressed.SIX)
 		{
@@ -2129,6 +2266,28 @@ class PlayState extends MusicBeatState
 				luaModchart = null;
 			}
 			#end
+		}
+
+		if (FlxG.keys.justPressed.FOUR)
+		{
+			FlxG.stage.removeEventListener(KeyboardEvent.KEY_DOWN,handleInput);
+			DeltaruneState.initialCharZoom = FlxG.camera.zoom;
+			DeltaruneState.playerIndex = ['bf_aloe-deltarune', 'bf_nene-deltarune'];
+			DeltaruneState.playerNames = ['ALOE', 'NENE'];
+			DeltaruneState.initialLocations = [
+				new FlxPoint(boyfriend.x, boyfriend.y),
+				new FlxPoint(gf.x, gf.y)
+			];
+			DeltaruneState.oldStage = curStage;
+			DeltaruneState.camPoint = new FlxPoint(camFollow.x, camFollow.y);
+
+			FlxTransitionableState.skipNextTransIn = true;
+			FlxTransitionableState.skipNextTransOut = true;
+			FlxG.sound.music.onComplete = null;
+			persistentUpdate = false;
+			persistentDraw = true;
+			
+			FlxG.switchState(new DeltaruneState());
 		}
 
 		#end
@@ -4107,6 +4266,13 @@ class PlayState extends MusicBeatState
 						if (FlxG.random.bool(10) && fastCarCanDrive)
 							fastCarDrive();
 				}
+			case 'pabloHappy':
+				if(FlxG.save.data.distractions){
+					grpLimoDancers.forEach(function(dancer:BackgroundDancer)
+						{
+							dancer.dance();
+						});
+				}
 			case "philly":
 				if(FlxG.save.data.distractions){
 					if (!trainMoving)
@@ -4146,4 +4312,16 @@ class PlayState extends MusicBeatState
 	
 	}
 	var curLight:Int = 0;
+
+	//puki shit
+	public function modifyHealth(type:String, value:Float)
+	{
+		switch (type)
+		{
+			case 'set':
+				health = value;
+			case 'add':
+				health += value;
+		}
+	}
 }

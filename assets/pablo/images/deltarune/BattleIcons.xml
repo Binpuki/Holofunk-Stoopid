@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BattleIcons.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ICON0000" x="5" y="5" width="150" height="150"/>
+	<SubTexture name="ICON0001" x="160" y="5" width="150" height="150"/>
+	<SubTexture name="ICON0002" x="315" y="5" width="150" height="150"/>
+	<SubTexture name="ICON0003" x="5" y="160" width="150" height="150"/>
+	<SubTexture name="ICON0004" x="160" y="160" width="150" height="150"/>
+	<SubTexture name="ICON0005" x="315" y="160" width="150" height="150"/>
+</TextureAtlas>

@@ -25,7 +25,7 @@ class Character extends FlxSprite
 
 	public var holdTimer:Float = 0;
 
-	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false)
+	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false, ?library = 'shared')
 	{
 		super(x, y);
 
@@ -52,7 +52,7 @@ class Character extends FlxSprite
 			switch(splitShit[0])
 			{
 				case 'file':
-					frames = Paths.getSparrowAtlas('characters/' + splitShit[1]);
+					frames = Paths.getSparrowAtlas('characters/' + splitShit[1], library);
 				case 'pixel':
 				{
 					if (splitShit[1] == 'true')
@@ -157,7 +157,11 @@ class Character extends FlxSprite
 			switch (poop[5])
 			{
 				case 'prefix':
-					animation.addByPrefix(poop[0], poop[1], Std.parseInt(poop[2]), false);
+					if (poop[0] == 'deathLoop')
+						animation.addByPrefix(poop[0], poop[1], Std.parseInt(poop[2]), true);
+					else
+						animation.addByPrefix(poop[0], poop[1], Std.parseInt(poop[2]), false);
+
 					addOffset(poop[0], Std.parseInt(poop[3]), Std.parseInt(poop[4]));
 				case 'indices': //IN DEEZ NUTS
 				{

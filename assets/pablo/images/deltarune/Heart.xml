@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Heart.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Heart0000" x="5" y="5" width="27" height="29" frameX="-4" frameY="0" frameWidth="35" frameHeight="29"/>
+	<SubTexture name="Heart0001" x="37" y="5" width="35" height="28" frameX="0" frameY="-1" frameWidth="35" frameHeight="29"/>
+	<SubTexture name="Heart Shards0000" x="77" y="5" width="9" height="14" frameX="-3" frameY="-1" frameWidth="15" frameHeight="15"/>
+	<SubTexture name="Heart Shards0001" x="91" y="5" width="6" height="15" frameX="-5" frameY="0" frameWidth="15" frameHeight="15"/>
+	<SubTexture name="Heart Shards0002" x="102" y="5" width="10" height="13" frameX="-2" frameY="-1" frameWidth="15" frameHeight="15"/>
+	<SubTexture name="Heart Shards0003" x="5" y="39" width="15" height="8" frameX="0" frameY="-2" frameWidth="15" frameHeight="15"/>
+	<SubTexture name="Heart Shards0004" x="25" y="39" width="13" height="8" frameX="-1" frameY="-3" frameWidth="15" frameHeight="15"/>
+	<SubTexture name="Heart Shards0005" x="43" y="39" width="13" height="12" frameX="0" frameY="-1" frameWidth="15" frameHeight="15"/>
+</TextureAtlas>

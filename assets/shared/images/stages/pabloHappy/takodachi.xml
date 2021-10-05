@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="takodachi.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tako dance0000" x="5" y="5" width="167" height="149" frameX="0" frameY="-10" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0001" x="5" y="5" width="167" height="149" frameX="0" frameY="-10" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0002" x="177" y="5" width="165" height="153" frameX="-4" frameY="-6" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0003" x="177" y="5" width="165" height="153" frameX="-4" frameY="-6" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0004" x="347" y="5" width="161" height="155" frameX="-9" frameY="-4" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0005" x="347" y="5" width="161" height="155" frameX="-9" frameY="-4" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0006" x="513" y="5" width="159" height="156" frameX="-12" frameY="-3" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0007" x="513" y="5" width="159" height="156" frameX="-12" frameY="-3" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0008" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0009" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0010" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0011" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0012" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0013" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0014" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0015" x="841" y="5" width="161" height="149" frameX="-15" frameY="-10" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0016" x="841" y="5" width="161" height="149" frameX="-15" frameY="-10" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0017" x="5" y="169" width="160" height="150" frameX="-14" frameY="-9" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0018" x="5" y="169" width="160" height="150" frameX="-14" frameY="-9" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0019" x="170" y="169" width="159" height="155" frameX="-14" frameY="-4" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0020" x="170" y="169" width="159" height="155" frameX="-14" frameY="-4" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0021" x="334" y="169" width="158" height="155" frameX="-14" frameY="-4" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0022" x="334" y="169" width="158" height="155" frameX="-14" frameY="-4" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0023" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0024" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0025" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0026" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0027" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0028" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+	<SubTexture name="tako dance0029" x="677" y="5" width="159" height="159" frameX="-13" frameY="0" frameWidth="176" frameHeight="159"/>
+</TextureAtlas>

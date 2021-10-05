@@ -1,0 +1,10 @@
+file:lol/pablo
+pixel:false
+playable:false
+
+animation
+idle:pablo idle:24:0:0:prefix
+singUP:pablo up:24:38:53:prefix
+singRIGHT:pablo right:24:0:-21:prefix
+singDOWN:pablo down:24:4:-17:prefix
+singLEFT:pablo left:24:12:-13:prefix

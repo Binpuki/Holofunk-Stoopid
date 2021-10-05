@@ -1,5 +1,8 @@
 package;
 
+#if debug
+import deltarune.DeltaruneState;
+#end
 import flixel.input.gamepad.FlxGamepad;
 import Controls.KeyboardScheme;
 import flixel.FlxG;
@@ -227,6 +230,25 @@ class MainMenuState extends MusicBeatState
 		}
 
 		super.update(elapsed);
+
+		//DEBUG ONLY
+		#if debug
+		if (FlxG.keys.justPressed.P)
+		{
+			DeltaruneState.playerIndex = ['bf', 'bf_aloe-deltarune', 'bf_aloe-deltarune'];
+			FlxG.switchState(new DeltaruneState());
+		}
+		if (FlxG.keys.justPressed.O)
+		{
+			DeltaruneState.playerIndex = ['bf', 'bf_aloe-deltarune'];
+			FlxG.switchState(new DeltaruneState());
+		}
+		if (FlxG.keys.justPressed.I)
+		{
+			DeltaruneState.playerIndex = ['bf'];
+			FlxG.switchState(new DeltaruneState());
+		}
+		#end
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{

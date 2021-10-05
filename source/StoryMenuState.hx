@@ -1,5 +1,6 @@
 package;
 
+import flixel.addons.effects.FlxSkewedSprite;
 import flixel.input.gamepad.FlxGamepad;
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -26,7 +27,7 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
-		['Bopeebo', 'Fresh', 'Dad Battle'],
+		['Lolipops'],
 		['Spookeez', 'South', "Monster"],
 		['Pico', 'Philly Nice', "Blammed"],
 		['Satin Panties', "High", "Milf"],
@@ -49,7 +50,7 @@ class StoryMenuState extends MusicBeatState
 
 	var weekNames:Array<String> = [
 		"",
-		"Daddy Dearest",
+		"Bobloe",
 		"Spooky Month",
 		"PICO",
 		"MOMMY MUST MURDER",
@@ -73,12 +74,19 @@ class StoryMenuState extends MusicBeatState
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
 
+	//puki shit
+	var blackThing:FlxSkewedSprite;
+	var yellowThing:FlxSkewedSprite;
+
 	override function create()
 	{
 		#if windows
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Story Mode Menu", null);
 		#end
+
+		//puki sthi
+
 
 		transIn = FlxTransitionableState.defaultTransIn;
 		transOut = FlxTransitionableState.defaultTransOut;
@@ -181,7 +189,7 @@ class StoryMenuState extends MusicBeatState
 
 		trace("Line 150");
 
-		add(yellowBG);
+		//add(yellowBG);
 		add(grpWeekCharacters);
 
 		txtTracklist = new FlxText(FlxG.width * 0.05, yellowBG.x + yellowBG.height + 100, 0, "Tracks", 32);
@@ -337,10 +345,30 @@ class StoryMenuState extends MusicBeatState
 			PlayState.SONG = Song.loadFromJson(poop, PlayState.storyPlaylist[0]);
 			PlayState.storyWeek = curWeek;
 			PlayState.campaignScore = 0;
+
+			new FlxTimer().start(1, function(tmr:FlxTimer)
+			{
+				switch (curWeek) //wweek shit
+				{
+					case 1: //bob week 1
+					{
+						MP4State.path = Paths.video('Week1Begin', 'pablo');
+						MP4State.stateSwitch = new PlayState();
+						LoadingState.loadAndSwitchState(new MP4State());
+					}
+					default: //if no cutscene, just go to the epic gaming lol
+					{
+						LoadingState.loadAndSwitchState(new PlayState(), true);
+					}
+				}
+			});
+
+			/*
 			new FlxTimer().start(1, function(tmr:FlxTimer)
 			{
 				LoadingState.loadAndSwitchState(new PlayState(), true);
 			});
+			*/
 		}
 	}
 

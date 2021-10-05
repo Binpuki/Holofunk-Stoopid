@@ -8,3 +8,5 @@ school
 schoolEvil
 mementos
 x0o0x-box1
+pabloHappy
+pabloAnnoy

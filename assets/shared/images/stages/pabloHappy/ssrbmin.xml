@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ssrbmin.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ssrbmin dance0000" x="5" y="5" width="138" height="160" frameX="0" frameY="-11" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0001" x="5" y="5" width="138" height="160" frameX="0" frameY="-11" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0002" x="148" y="5" width="138" height="167" frameX="-2" frameY="-4" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0003" x="148" y="5" width="138" height="167" frameX="-2" frameY="-4" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0004" x="291" y="5" width="140" height="167" frameX="-5" frameY="-4" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0005" x="291" y="5" width="140" height="167" frameX="-5" frameY="-4" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0006" x="436" y="5" width="141" height="167" frameX="-6" frameY="-4" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0007" x="436" y="5" width="141" height="167" frameX="-6" frameY="-4" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0008" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0009" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0010" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0011" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0012" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0013" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0014" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0015" x="728" y="5" width="150" height="160" frameX="-15" frameY="-11" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0016" x="728" y="5" width="150" height="160" frameX="-15" frameY="-11" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0017" x="5" y="181" width="145" height="164" frameX="-12" frameY="-7" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0018" x="5" y="181" width="145" height="164" frameX="-12" frameY="-7" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0019" x="155" y="181" width="142" height="168" frameX="-9" frameY="-3" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0020" x="155" y="181" width="142" height="168" frameX="-9" frameY="-3" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0021" x="302" y="181" width="141" height="169" frameX="-8" frameY="-2" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0022" x="302" y="181" width="141" height="169" frameX="-8" frameY="-2" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0023" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0024" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0025" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0026" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0027" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0028" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+	<SubTexture name="ssrbmin dance0029" x="582" y="5" width="141" height="171" frameX="-7" frameY="0" frameWidth="165" frameHeight="171"/>
+</TextureAtlas>

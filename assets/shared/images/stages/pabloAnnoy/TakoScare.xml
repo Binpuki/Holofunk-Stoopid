@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TakoScare.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="takodachi0000" x="5" y="5" width="158" height="158" frameX="-1" frameY="0" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0001" x="168" y="5" width="159" height="156" frameX="0" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0002" x="332" y="5" width="158" height="156" frameX="-1" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0003" x="5" y="168" width="158" height="154" frameX="-1" frameY="-4" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0004" x="5" y="5" width="158" height="158" frameX="-1" frameY="0" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0005" x="168" y="5" width="159" height="156" frameX="0" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0006" x="332" y="5" width="158" height="156" frameX="-1" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0007" x="5" y="168" width="158" height="154" frameX="-1" frameY="-4" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0008" x="5" y="5" width="158" height="158" frameX="-1" frameY="0" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0009" x="168" y="5" width="159" height="156" frameX="0" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0010" x="332" y="5" width="158" height="156" frameX="-1" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0011" x="5" y="168" width="158" height="154" frameX="-1" frameY="-4" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0012" x="5" y="5" width="158" height="158" frameX="-1" frameY="0" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0013" x="168" y="5" width="159" height="156" frameX="0" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0014" x="332" y="5" width="158" height="156" frameX="-1" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0015" x="5" y="168" width="158" height="154" frameX="-1" frameY="-4" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0016" x="5" y="5" width="158" height="158" frameX="-1" frameY="0" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0017" x="168" y="5" width="159" height="156" frameX="0" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0018" x="332" y="5" width="158" height="156" frameX="-1" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0019" x="5" y="168" width="158" height="154" frameX="-1" frameY="-4" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0020" x="5" y="5" width="158" height="158" frameX="-1" frameY="0" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0021" x="168" y="5" width="159" height="156" frameX="0" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0022" x="332" y="5" width="158" height="156" frameX="-1" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0023" x="5" y="168" width="158" height="154" frameX="-1" frameY="-4" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0024" x="5" y="5" width="158" height="158" frameX="-1" frameY="0" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0025" x="168" y="5" width="159" height="156" frameX="0" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0026" x="332" y="5" width="158" height="156" frameX="-1" frameY="-2" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0027" x="5" y="168" width="158" height="154" frameX="-1" frameY="-4" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0028" x="5" y="5" width="158" height="158" frameX="-1" frameY="0" frameWidth="159" frameHeight="158"/>
+	<SubTexture name="takodachi0029" x="168" y="5" width="159" height="156" frameX="0" frameY="-2" frameWidth="159" frameHeight="158"/>
+</TextureAtlas>

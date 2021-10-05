@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="friend.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="friend0000" x="5" y="5" width="113" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0001" x="123" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0002" x="241" y="5" width="112" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0003" x="358" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0004" x="5" y="5" width="113" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0005" x="123" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0006" x="241" y="5" width="112" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0007" x="358" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0008" x="5" y="5" width="113" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0009" x="123" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0010" x="241" y="5" width="112" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0011" x="358" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0012" x="5" y="5" width="113" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0013" x="123" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0014" x="241" y="5" width="112" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0015" x="358" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0016" x="5" y="5" width="113" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0017" x="123" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0018" x="241" y="5" width="112" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0019" x="358" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0020" x="5" y="5" width="113" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0021" x="123" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0022" x="241" y="5" width="112" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0023" x="358" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0024" x="5" y="5" width="113" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0025" x="123" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0026" x="241" y="5" width="112" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0027" x="358" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0028" x="5" y="5" width="113" height="136" frameX="-2" frameY="0" frameWidth="115" frameHeight="136"/>
+	<SubTexture name="friend0029" x="123" y="5" width="113" height="136" frameX="0" frameY="0" frameWidth="115" frameHeight="136"/>
+</TextureAtlas>

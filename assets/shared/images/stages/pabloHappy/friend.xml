@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="friend.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mumay frien dance0000" x="5" y="5" width="128" height="123" frameX="0" frameY="-14" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0001" x="5" y="5" width="128" height="123" frameX="0" frameY="-14" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0002" x="138" y="5" width="124" height="130" frameX="-4" frameY="-7" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0003" x="138" y="5" width="124" height="130" frameX="-4" frameY="-7" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0004" x="267" y="5" width="117" height="134" frameX="-11" frameY="-4" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0005" x="267" y="5" width="117" height="134" frameX="-11" frameY="-4" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0006" x="389" y="5" width="114" height="136" frameX="-15" frameY="-2" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0007" x="389" y="5" width="114" height="136" frameX="-15" frameY="-2" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0008" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0009" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0010" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0011" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0012" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0013" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0014" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0015" x="123" y="146" width="130" height="123" frameX="-22" frameY="-14" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0016" x="123" y="146" width="130" height="123" frameX="-22" frameY="-14" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0017" x="258" y="146" width="123" height="130" frameX="-21" frameY="-7" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0018" x="258" y="146" width="123" height="130" frameX="-21" frameY="-7" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0019" x="386" y="146" width="117" height="133" frameX="-20" frameY="-5" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0020" x="386" y="146" width="117" height="133" frameX="-20" frameY="-5" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0021" x="5" y="288" width="114" height="135" frameX="-20" frameY="-3" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0022" x="5" y="288" width="114" height="135" frameX="-20" frameY="-3" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0023" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0024" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0025" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0026" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0027" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0028" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+	<SubTexture name="mumay frien dance0029" x="5" y="146" width="113" height="137" frameX="-18" frameY="0" frameWidth="152" frameHeight="138"/>
+</TextureAtlas>
